@@ -21,5 +21,7 @@ The main script `run_analysis.R` does the following to the raw data:
 
 ## Steps to obtain tidy data set from raw data
 1. Open R and set your working directory.
-2. Save `run_analysis.R` into the working directory and source it. The tidy data set will be written into `tidy.txt`
+2. Save `run_analysis.R` into the working directory and source it. The tidy data set will be written into `tidy.txt`.  
+
+
 More information about the study design and variables can be found in the `Codebook.md` file.
