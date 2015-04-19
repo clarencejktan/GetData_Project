@@ -25,3 +25,13 @@ The main script `run_analysis.R` does the following to the raw data:
 
 
 More information about the study design and variables can be found in the `Codebook.md` file.
+
+
+## Coursera Submission: Reading the tidy dataset into R
+The tidy dataset output for this project can be found [here](https://s3.amazonaws.com/coursera-uploads/user-e97c02c967c6363744d99f64/973500/asst-3/ab4dbba0e68311e49fdea3d2b50763ef.txt). To read this text file into R and verify that it is indeed tidy, run the following code in R:
+```r
+address <- "https://s3.amazonaws.com/coursera-uploads/user-e97c02c967c6363744d99f64/973500/asst-3/ab4dbba0e68311e49fdea3d2b50763ef.txt"
+address <- sub("^https", "http", address)
+data <- read.table(url(address), header = TRUE)
+View(data)
+```

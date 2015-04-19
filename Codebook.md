@@ -50,5 +50,10 @@ The script `run_analysis.R` outputs a tidy dataset in a text file. This dataset 
 - only variables related to mean and standard deviation of the data collected.
 - provides the **__average__** of these readings, grouped by **subject** and **activity**.
 
+The `tidy.txt` dataset is tidy because:
+- Each of the averages of the 66 mean and standard deviation-related variables is contained in one column. Along with the _subject_ and _activity_ columns, this makes for 68 columns.
+- Each observation of the variables is in one row. The data is summarised and grouped by subject and activity. Since there are 30 subjects and 6 activities, this makes for 30 x 6 = 180 rows.
+
+
 
 
