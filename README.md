@@ -7,7 +7,11 @@ In this project, I collect, work with, and clean a dataset as part of the _Getti
 Data_ course from Johns Hopkins University on Coursera.  
 
 ## Brief Data Description
-I use the [Human Activity Recognition Using Smartphones Data Set] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) from the [UCI Machine Learning Repository] (http://archive.ics.uci.edu/ml/index.html). The raw data in zip format can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+I use the [Human Activity Recognition Using Smartphones Data Set] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) from the [UCI Machine Learning Repository] (http://archive.ics.uci.edu/ml/index.html). 
+
+__Most of the material describing the raw data is extracted from the Data Set website cited above, and the accompanying files in the zip archive. This information is reproduced both in the Readme file, and the Codebook. I acknowledge these sources and the study authors Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz.__
+
+The raw data in zip format can be downloaded [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 ## Script
 The main script `run_analysis.R` does the following to the raw data:  
