@@ -1,2 +1,5 @@
-# GetData_Project
-Course Project for the Coursera Getting and Cleaning Data Course from Johns Hopkins University
+# Getting and Cleaning Data : Course Project
+Clarence Jun Khiang Tan  
+April 2015  
+============================
+demonstrate your ability to collect, work with, and clean a data set
