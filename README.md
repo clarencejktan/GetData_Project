@@ -1,8 +1,11 @@
 # Getting and Cleaning Data : Course Project  
 ## README file  
 Clarence Jun Khiang Tan  
-April 2015  
+February 2021
 
+_Note: I am retaking this R Programming course to refresh my skills after some time away from the data science field.This repo contains my work from when I first took the course, and is my own work.Thanks for reviewing it._
+
+## Introduction
 In this project, I collect, work with, and clean a dataset as part of the _Getting and Cleaning 
 Data_ course from Johns Hopkins University on Coursera.  
 
@@ -32,9 +35,9 @@ More information about the study design and variables can be found in the `Codeb
 
 
 ## Coursera Submission: Reading the tidy dataset into R
-The tidy dataset output for this project can be found [here](https://s3.amazonaws.com/coursera-uploads/user-e97c02c967c6363744d99f64/973500/asst-3/ab4dbba0e68311e49fdea3d2b50763ef.txt). To read this text file into R and verify that it is indeed tidy, run the following code in R:
+The tidy dataset output for this project can be found [here](https://coursera-assessments.s3.amazonaws.com/assessments/1614163015314/d6e58715-4e3a-4775-c1aa-f868e8cfb7e1/tidy.txt). To read this text file into R and verify that it is indeed tidy, run the following code in R:
 ```r
-address <- "https://s3.amazonaws.com/coursera-uploads/user-e97c02c967c6363744d99f64/973500/asst-3/ab4dbba0e68311e49fdea3d2b50763ef.txt"
+address <- "https://coursera-assessments.s3.amazonaws.com/assessments/1614163015314/d6e58715-4e3a-4775-c1aa-f868e8cfb7e1/tidy.txt"
 address <- sub("^https", "http", address)
 data <- read.table(url(address), header = TRUE)
 View(data)
